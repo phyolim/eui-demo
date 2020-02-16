@@ -19,7 +19,7 @@ function HomePage({ onSubmit, state }) {
                 SUBMIT TEST
             </button>
             <pre style={{ background: "lightblue", height: "300px" }}>
-        current state: {JSON.stringify(state)}
+        current state: {JSON.stringify(state, undefined, 2)}
       </pre>
             <EuiGlobalToastList
                 toasts={toasts}
